@@ -21,12 +21,14 @@ def main():
     fig = plt.figure()
     ax = fig.add_subplot(1, 1, 1)
     ax.set_aspect('equal')
+
     plt.imshow(matrix,
                interpolation='nearest',
                cmap=plt.cm.Spectral,
                extent=(-radius, radius,
                        -radius, radius))
-    plt.show()
+
+    plt.savefig('gcd.png', bbox_inches='tight')
 
 if __name__ == '__main__':
     main()
