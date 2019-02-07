@@ -4,7 +4,7 @@
 # A different color is associated to each value with the color range
 # pretty evident along the main diagonal.
 #
-#   -- See "Abstract Algebra with Applications - Audrey Terras
+#   -- See "Abstract Algebra with Applications" - Audrey Terras
 #
 # Copyright (C) 2019 Davide Madrisan <davide.madrisan.gmail.com>
 
