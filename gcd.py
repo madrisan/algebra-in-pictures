@@ -19,10 +19,13 @@ def main():
     matrix = np.matrix(data)
 
     fig = plt.figure()
-    ax = fig.add_subplot(1,1,1)
+    ax = fig.add_subplot(1, 1, 1)
     ax.set_aspect('equal')
-    plt.imshow(matrix, interpolation='nearest', cmap=plt.cm.ocean)
-    plt.colorbar()
+    plt.imshow(matrix,
+               interpolation='nearest',
+               cmap=plt.cm.Spectral,
+               extent=(-radius, radius,
+                       -radius, radius))
     plt.show()
 
 if __name__ == '__main__':
