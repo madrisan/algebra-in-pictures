@@ -1,5 +1,10 @@
 # Algebra in pictures
 
+![Release Status](https://img.shields.io/badge/status-in--progress-green.svg)
+[![Maintainability](https://api.codeclimate.com/v1/badges/ef9834aff8e762b4ae01/maintainability)](https://codeclimate.com/github/madrisan/algebra-in-pictures/maintainability)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/a09af71ad7a547f98d2d178daa410262)](https://www.codacy.com/app/madrisan/algebra-in-pictures?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=madrisan/algebra-in-pictures&amp;utm_campaign=Badge_Grade)
+[![License](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](https://spdx.org/licenses/Apache-2.0.html)
+
 Some interesting pictures of algebric objects.
 
 ## gcd
