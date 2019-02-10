@@ -22,7 +22,7 @@ Python code: [gcd.py][gcd-code]
 Usage:
 
     ./gcd.py --help
-    ./gcd.py --size 50
+    ./gcd.py
     ./gcd.py --size 50 --outfile gcd.png
 
 ## Reminder
@@ -34,8 +34,8 @@ Python code: [reminder.py][rem-code]
 Usage:
 
     ./reminder.py --help
-    ./reminder.py --size 50
-    ./reminder.py --size 50 --outfile reminder.png
+    ./reminder.py --size 1000
+    ./reminder.py --size 1000 --outfile reminder.png
 
 [aawa]: https://www.cambridge.org/core/books/abstract-algebra-with-applications/725D4A0DDED4E62472C870D0C53F134C
 [gcd-code]: https://github.com/madrisan/algebra-in-pictures/blob/master/gcd.py "python source gcd"

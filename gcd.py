@@ -9,12 +9,8 @@
 # Copyright (C) 2019 Davide Madrisan <davide.madrisan.gmail.com>
 # SPDX-License-Identifier: Apache-2.0
 
-import matplotlib.pyplot as plt
-import numpy as np
-import os
-
 from math import gcd
-from utils import argparser, copyleft, plot
+from utils import argparser, plot
 
 def parse_args():
     """This function parses and return arguments passed in"""

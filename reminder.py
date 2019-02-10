@@ -4,9 +4,7 @@
 # Copyright (C) 2019 Davide Madrisan <davide.madrisan@gmail.com>
 # SPDX-License-Identifier: Apache-2.0
 
-import numpy as np
-import os
-from utils import argparser, copyleft, plot
+from utils import argparser, plot
 
 def parse_args():
     """This function parses and return arguments passed in"""
@@ -16,7 +14,7 @@ def parse_args():
     parser = argparser(descr)
     parser.add_argument(
         "-s", "--size",
-        action="store", dest="size", type=int, default=50,
+        action="store", dest="size", type=int, default=500,
         help="range of the gcd values to be plotted (default: %(default)s)")
     parser.add_argument(
         "-f", "--outfile",
