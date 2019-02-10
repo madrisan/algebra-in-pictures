@@ -1,24 +1,16 @@
 #!/usr/bin/python3
 
-# Plot gcd(m,n) for -SIZE <= m,n <= SIZE.
-# A different color is associated to each value with the color range
-# pretty evident along the main diagonal.
-#
-#   -- See "Abstract Algebra with Applications" - Audrey Terras
-#
-# Copyright (C) 2019 Davide Madrisan <davide.madrisan.gmail.com>
+# Plot the reminder of an integer division x / y
+# Copyright (C) 2019 Davide Madrisan <davide.madrisan@gmail.com>
 # SPDX-License-Identifier: Apache-2.0
 
-import matplotlib.pyplot as plt
 import numpy as np
 import os
-
-from math import gcd
 from utils import argparser, copyleft, plot
 
 def parse_args():
     """This function parses and return arguments passed in"""
-    descr = ("Plot gcd(m,n) for -SIZE <= m,n <= SIZE.\n"
+    descr = ("Plot some basic relations from -SIZE <= x,y <= SIZE.\n"
              "Optionally save the plot to a PNG file")
 
     parser = argparser(descr)
@@ -35,9 +27,10 @@ def parse_args():
 
 def main():
     args = parse_args()
-    r = range(-args.size, args.size + 1)
-    data = [[gcd(m, n) for m in r] for n in r]
-    plot(data, -args.size, args.size, args.outfile)
+    r = range(1, args.size)
+    rem = lambda x, y: x % y
+    data = [[rem(x, y) for x in r] for y in r]
+    plot(data, 1, args.size, args.outfile)
 
 if __name__ == "__main__":
     main()

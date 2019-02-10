@@ -9,7 +9,7 @@ Some interesting pictures of algebric objects.
 
 ## gcd
 
-Plot *gcd*(*m*,*n*) for -50 <= *m*, *n* <= 50.
+Plot *gcd*(*m*,*n*) for -SIZE <= *m*, *n* <= SIZE. (SIZE=50 by default).
 A different color is associated to each value with the color range pretty evident along the main diagonal,
 where *gcd*(*m*,*m*) = |m|.
 
@@ -25,6 +25,20 @@ Usage:
     ./gcd.py --size 50
     ./gcd.py --size 50 --outfile gcd.png
 
+## Reminder
+
+![alt tag][rem-plot]
+
+Python code: [reminder.py][rem-code]
+
+Usage:
+
+    ./reminder.py --help
+    ./reminder.py --size 50
+    ./reminder.py --size 50 --outfile reminder.png
+
 [aawa]: https://www.cambridge.org/core/books/abstract-algebra-with-applications/725D4A0DDED4E62472C870D0C53F134C
 [gcd-code]: https://github.com/madrisan/algebra-in-pictures/blob/master/gcd.py "python source gcd"
 [gcd-plot]: https://github.com/madrisan/algebra-in-pictures/blob/master/images/gcd.png "gcd plot"
+[rem-code]: https://github.com/madrisan/algebra-in-pictures/blob/master/reminder.py "python source reminder"
+[rem-plot]: https://github.com/madrisan/algebra-in-pictures/blob/master/images/reminder.png "reminder plot"
