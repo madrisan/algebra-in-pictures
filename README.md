@@ -1,7 +1,6 @@
 # Algebra in pictures
 
 ![Release Status](https://img.shields.io/badge/status-in--progress-green.svg)
-[![Maintainability](https://api.codeclimate.com/v1/badges/ef9834aff8e762b4ae01/maintainability)](https://codeclimate.com/github/madrisan/algebra-in-pictures/maintainability)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/a09af71ad7a547f98d2d178daa410262)](https://www.codacy.com/app/madrisan/algebra-in-pictures?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=madrisan/algebra-in-pictures&amp;utm_campaign=Badge_Grade)
 [![License](https://img.shields.io/badge/License-Apache--2.0-blue.svg)](https://spdx.org/licenses/Apache-2.0.html)
 
@@ -26,6 +25,12 @@ Usage:
     ./gcd.py --size 50 --outfile gcd.png
 
 ## Reminder
+
+Let's say we have integers *m* and *n*.
+The *remainder* of *m* divided by *n* is the number *r* such that *m* = *qn* + *r*
+for some integer *q* and *0* ≤ *r* < *n*.
+
+Plot the *reminder* of *m* divided by *n* for 0 <= *m*, *n* <= SIZE. (SIZE=500 by default).
 
 ![alt tag][rem-plot]
 
