@@ -13,7 +13,6 @@ __status__ = "stable"
 
 import argparse
 import matplotlib.pyplot as plt
-import textwrap
 
 def argparser(descr):
     """Return a new ArgumentParser object """
